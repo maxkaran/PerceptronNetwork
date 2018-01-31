@@ -1,0 +1,35 @@
+The starting weights for both inputs were 1, with an activation threshold of 0.5
+Iris-setosa        Iris_setosa
+Iris-setosa        Iris_setosa
+Iris-setosa        Iris_setosa
+Iris-setosa        Iris_setosa
+Iris-setosa        Iris_setosa
+Iris-setosa        Iris_setosa
+Iris-setosa        Iris_setosa
+Iris-setosa        Iris_setosa
+Iris-setosa        Iris_setosa
+Iris-setosa        Iris_setosa
+Iris-versicolor        Iris_versicolor
+Iris-versicolor        Iris_versicolor
+Iris-versicolor        Iris_versicolor
+Iris-versicolor        Iris_versicolor
+Iris-versicolor        Iris_versicolor
+Iris-versicolor        Iris_versicolor
+Iris-versicolor        Iris_versicolor
+Iris-versicolor        Iris_versicolor
+Iris-versicolor        Iris_virginica
+Iris-versicolor        Iris_versicolor
+Iris-virginica        Iris_virginica
+Iris-virginica        Iris_virginica
+Iris-virginica        Iris_versicolor
+Iris-virginica        Iris_virginica
+Iris-virginica        Iris_setosa
+Iris-virginica        Iris_virginica
+Iris-virginica        Iris_versicolor
+Iris-virginica        Iris_versicolor
+Iris-virginica        Iris_virginica
+Iris-virginica        Iris_virginica
+The sum squared error is 5
+The terminating criteria was if the ANN successfully classified all the flower types from the training data
+The number of iterations for training had no effect after 120, so the terminating criteria was met
+The precision of the ANN was 83.333333 percent

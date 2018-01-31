@@ -82,7 +82,7 @@ test = readtable('test.txt');
 %create file to hold results
 file = fopen('results.txt','w');
 
-fprintf(file, 'The starting weights for both inputs were 1, with an activation threshold of 0.5\n');
+fprintf(file, 'The starting weights for both inputs were 1, with an activation threshold of 0.5');
 
 for i=1:30
     sepal_length = test{i, 1};
@@ -131,11 +131,5 @@ for i=1:30
 end
 
 fprintf(file,'The sum squared error is %i\n', incorrect);
-fprintf(file,'The terminating criteria was if the ANN successfully classified all the flower types from the training data\n');
-fprintf(file,'The number of iterations for training had no effect after 120, so the terminating criteria was met\n');
-fprintf(file,'The precision of the ANN was %f percent', 100*correct/30);
-
-%% 
-%The reason for only using two inputs (sepal width and petal width) is that
-%when they are plotted against eachother, there is the least cross over
-%between different species of Iris flowers.
+fprintf(file,'The terminating criteria was if the ANN successfully classified all the flower types from the training data');
+fprintf(file,'The number of iterations for training had no effect after 120, so the terminating criteria was met');

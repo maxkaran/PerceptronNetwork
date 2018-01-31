@@ -1,5 +1,5 @@
 data = readtable('train.txt');
-one = 1;
+one = 2;
 two = 4;
 figure;
 x = data{1:40,one};
